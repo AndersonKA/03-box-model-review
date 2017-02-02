@@ -13,33 +13,31 @@ ul {
 }
 
 img {
-  background: yellow;
   max-width: 100%;
-  display: inline-block;;
+  display: inline-block;
 }
 
 .everything {
+  background: teal;
   max-width: 65rem;
   margin: 0 auto;
   padding: 2rem;
+  overflow: auto;
 }
 
 .profile {
-  background: pink;
-  width: calc(100% / 3 - 1rem - 1rem);
-}
-
-.profile-pic {
-  background: gray;
+  background: blue;
+  width: calc(100% / 3 - 4rem);
+  border: 1rem black solid;
+  margin: 2rem;
 }
 
 .octocat-pic {
-  max-width: 25rem;
+  background: magenta;
 }
 
 .profile-info {
   overflow: auto;
-
 }
 
 .profile-number {
@@ -50,6 +48,7 @@ img {
 
 .profile-attribution {
   background: orange;
+  float: right;
 }
 
 .username {
@@ -60,11 +59,10 @@ img {
 }
 
 .avatar {
-  background: blue;
-  max-width: 1.5rem;
+  background: pink;
+  max-width: 1rem;
   border-radius: .25rem;
   display: inline-block;
-
 }
 
 
