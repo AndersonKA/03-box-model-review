@@ -17,7 +17,9 @@ img {
 }
 
 .everything {
-
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .profile {
@@ -28,7 +30,7 @@ img {
  }
 
 .octocat-pic {
-
+ max-width: 25rem;
 }
 
 .profile-info {
@@ -39,12 +41,17 @@ img {
 
 }
 
-.profile-username {
+.profile-attribution {
+
+}
+
+.username {
 
 }
 
 .avatar {
-
+ max-width: 1.5rem;
+ border-radius: .25rem;
 }
 
 
