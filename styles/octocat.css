@@ -14,7 +14,6 @@ ul {
 
 img {
   max-width: 100%;
-
 }
 
 .everything {
@@ -24,8 +23,12 @@ img {
   overflow: auto;
 }
 
+.inside-everything {
+
+}
+
 .profile {
-  width: calc(100% / 3 - 4rem);
+  width: calc(100% / 3 - 2rem);
   margin: 2rem;
 }
 
