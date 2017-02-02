@@ -13,7 +13,9 @@ ul {
 }
 
 img {
+  background: yellow;
   max-width: 100%;
+  display: inline;
 }
 
 .everything {
@@ -22,38 +24,39 @@ img {
   padding: 2rem;
 }
 
-.profile {
+.profile {}
 
-}
-.profile-pic {
-
- }
+.profile-pic {}
 
 .octocat-pic {
- max-width: 25rem;
+  max-width: 25rem;
 }
 
-.profile-info {
-
-}
+.profile-info {}
 
 .profile-number {
-
+  background: red;
+  display: inline-block;
 }
 
 .profile-attribution {
-
+  background: orange;
+  display: inline-block;
 }
 
 .username {
-
+  background: green;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .avatar {
- max-width: 1.5rem;
- border-radius: .25rem;
+  background: blue;
+  max-width: 1.5rem;
+  border-radius: .25rem;
+  display: inline-block;
 }
-
 
 
 /*Center the content to be no larger than 65rem*/
