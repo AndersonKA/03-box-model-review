@@ -1,59 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./styles/octocat.css">
-    <title>Box Model Review</title>
-  </head>
-  <body>
 
-  <div class="everything"> <!--beginning of main section-->
-    <div class="inside-everything">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./styles/octocat.css">
+  <title>Box Model Review</title>
+</head>
+
+<body>
+
+  <div class="everything">
+    <!--beginning of main section-->
+    <div class="grid">
 
 
-<!--#1 https://octodex.github.com/images/mcefeeline.jpg #129 the McEfeeline by-->
-    <div class="profile">
-        <img src="https://octodex.github.com/images/mcefeeline.jpg" alt="" class="octocat-pic">
-        <figcaption class="profile-info">
-          <div class="profile-number">#129</div>
-          <div class="profile-attribution">the
-          <a href="#" class="username">McEfeeline</a> by
-          <img src="http://lorempixel.com/100/100/" alt="" class="avatar">
+      <!--#1 https://octodex.github.com/images/mcefeeline.jpg #129 the McEfeeline by-->
+      <div class="grid__item">
+        <div class="profile">
+          <img src="https://octodex.github.com/images/mcefeeline.jpg" alt="" class="octocat-pic">
+          <span class="profile-info">
+            <span class="profile-number">#129</span>
+            <span class="profile-attribution">the
+              <a href="#" class="username">McEfeeline</a> by
+              <img src="http://lorempixel.com/100/100/" alt="" class="avatar">
+            </span>
+          </span>
+            <!--   <span class="repo">facebook/React</span>
+                <span class="repo-language"><span class="react-dot"></span>React</span> -->
         </div>
-      </figcaption>
-    </div>
-
-<!--#2 https://octodex.github.com/images/mountietocat.png #117 the Mountietocat by-->
-    <div class="profile">
-        <img src="https://octodex.github.com/images/mountietocat.png" alt="" class="octocat-pic">
-        <figcaption class="profile-info">
-          <div class="profile-number">#117</div>
-          <div class="profile-attribution">the
-            <a href="#" class="username">Mountietocat</a> by
-            <img src="http://lorempixel.com/100/100/" alt="" class="avatar">
-          </div>
-        </figcaption>
-    </div>
-
-<!--#3 https://octodex.github.com/images/stormtroopocat.png #86 the Stormtroopocat by-->
-    <div class="profile">
-        <img src="https://octodex.github.com/images/stormtroopocat.png" alt="" class="octocat-pic">
-        <figcaption class="profile-info">
-          <div class="profile-number">#86</div>
-          <div class="profile-attribution">the
-            <a href="#" class="username">McEfeeline</a> by
-            <img src="http://lorempixel.com/100/100/" alt="" class="avatar">
-          </div>
-        </figcaption>
-    </div>
-
-
-
-
       </div>
-    </div> <!--closing-->
 
-  </body>
+      <!--#2 https://octodex.github.com/images/mountietocat.png #117 the Mountietocat by-->
+      <div class="grid__item">
+        <div class="profile">
+          <img src="https://octodex.github.com/images/mountietocat.png" alt="" class="octocat-pic">
+          <figcaption class="profile-info">
+            <div class="profile-number">#117</div>
+            <div class="profile-attribution">the
+              <a href="#" class="username">Mountietocat</a> by
+              <img src="http://lorempixel.com/100/100/" alt="" class="avatar">
+            </div>
+          </figcaption>
+        </div>
+      </div>
+
+      <!--#3 https://octodex.github.com/images/stormtroopocat.png #86 the Stormtroopocat by-->
+      <div class="grid__item">
+        <div class="profile">
+          <img src="https://octodex.github.com/images/stormtroopocat.png" alt="" class="octocat-pic">
+          <figcaption class="profile-info">
+            <div class="profile-number">#86</div>
+            <div class="profile-attribution">the
+              <a href="#" class="username">McEfeeline</a> by
+              <img src="http://lorempixel.com/100/100/" alt="" class="avatar">
+            </div>
+          </figcaption>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--closing-->
+
+</body>
+
 </html>
 
 

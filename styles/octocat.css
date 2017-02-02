@@ -23,12 +23,9 @@ img {
   overflow: auto;
 }
 
-.inside-everything {
-
-}
-
-.profile {
-  width: calc(100% / 3 - 2rem);
+.grid__item {
+  float: left;
+  width: calc(100% / 3 - 4rem);
   margin: 2rem;
 }
 
@@ -42,7 +39,8 @@ img {
 }
 
 .profile-number {
-  display: inline-block;
+  float: left;
+  display: inline;
 }
 
 .profile-attribution {
