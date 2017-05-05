@@ -1,3 +1,68 @@
 body {
-  background: red;
+  margin: 0;
+  font-family: sans-serif;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.everything {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.grid__item {
+  float: left;
+  width: calc(100% / 3 - 1rem);
+  margin: 0.5rem;
+}
+
+.octocat-pic {
+  border: 0.025rem #d0dbda solid;
+}
+
+.profile-info {
+  overflow: auto;
+  padding-bottom: 0.25rem;
+  border-bottom: 0.025rem #d0dbda solid;
+}
+
+.profile-number {
+  float: left;
+  padding-top: 0.25rem;
+  display: inline;
+  color: #a9b2b3;
+}
+
+.profile-attribution {
+  float: right;
+  color: #797e80;
+}
+
+.username {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.avatar {
+  max-width: 1.5rem;
+  border-radius: .25rem;
+  vertical-align: middle;
+
+}
+
+
+/*Center the content to be no larger than 65rem*/
